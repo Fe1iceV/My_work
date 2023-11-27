@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галунька Сергій</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <p align="center">
+        Галунька Сергій
+    </p>
+</div>
+<div class="gallery">
+    <img width="900px" height="506px" src="1.jpg" alt="Image 1" data-rel="group1">
+    <img src="2.jpg" alt="Image 2" data-rel="group1">
+    <img src="3.jpg" alt="Image 3" data-rel="group1">
+    <img src="4.jpg" alt="Image 4" data-rel="group2">
+    <img src="5.jpg" alt="Image 5" data-rel="group2">
+    <img src="6.jpg" alt="Image 6" data-rel="group2">
+    <img src="7.jpg" alt="Image 7" data-rel="group3">
+    <img src="8.jpg" alt="Image 8" data-rel="group3">
+    <img src="9.jpg" alt="Image 9" data-rel="group3">
+</div>
+
+<div class="modal" id="myModal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span> 
+        <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+        <img id="modalImage" alt="Modal Image">
+        <span class="next" onclick="plusSlides(1)">&#10095;</span>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
